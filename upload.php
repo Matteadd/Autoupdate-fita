@@ -90,6 +90,6 @@ foreach ($newSite as $site)
 
 var_dump($diffExistAndNew)
 
-//da qui effettuo i
+//da qui effettuo gli update nel msrbs
 
 ?>

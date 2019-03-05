@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="643eac11-c640-4c39-b98e-084ab63dcefc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Connect_to_db.php" beforeDir="false" afterPath="$PROJECT_DIR$/Connect_to_db.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/upload.php" beforeDir="false" afterPath="$PROJECT_DIR$/upload.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/CDR-ERICSSON-MSRBS-SU_FG53RNC_Rev.6 (1).xlsx" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/vendor/composer/" />
     <ignored path="$PROJECT_DIR$/vendor/markbaker/complex/" />
@@ -51,8 +47,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/upload.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="756">
-              <caret line="92" column="20" selection-start-line="92" selection-start-column="20" selection-end-line="92" selection-end-column="20" />
+            <state relative-caret-position="722">
+              <caret line="92" column="38" selection-start-line="92" selection-start-column="38" selection-end-line="92" selection-end-column="38" />
               <folding>
                 <element signature="e#38#79#0#PHP" expanded="true" />
                 <element signature="e#278#362#0#PHP" />
@@ -60,15 +56,6 @@
                 <element signature="e#329#724#0#PHP" />
                 <element signature="e#340#722#0#PHP" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Connect_to_db.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -201,20 +188,29 @@
       <workItem from="1550659489900" duration="2754000" />
       <workItem from="1550685496592" duration="595000" />
       <workItem from="1551734221187" duration="6595000" />
-      <workItem from="1551787520465" duration="15498000" />
+      <workItem from="1551787520465" duration="15850000" />
     </task>
+    <task id="LOCAL-00001" summary="Lo script ora carica il file, lo apre, lo legge e prende tutti i siti, poi legge da db tutti i siti esistenti, fa una differenza tra i 2 e restituisce la differenza">
+      <created>1551822471487</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1551822471487</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39808000" />
+    <option name="totallyTimeSpent" value="40160000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21108742" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21108742" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.32936078" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3261105" />
@@ -270,6 +266,10 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Lo script ora carica il file, lo apre, lo legge e prende tutti i siti, poi legge da db tutti i siti esistenti, fa una differenza tra i 2 e restituisce la differenza" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lo script ora carica il file, lo apre, lo legge e prende tutti i siti, poi legge da db tutti i siti esistenti, fa una differenza tra i 2 e restituisce la differenza" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/qindex.php" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/53651dd3-85dc-48bb-b96d-a238e9a6f2b9/console.sql" />
@@ -279,13 +279,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Connect_to_db.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
@@ -310,10 +303,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Connect_to_db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/upload.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="92" column="20" selection-start-line="92" selection-start-column="20" selection-end-line="92" selection-end-column="20" />
+        <state relative-caret-position="722">
+          <caret line="92" column="38" selection-start-line="92" selection-start-column="38" selection-end-line="92" selection-end-column="38" />
           <folding>
             <element signature="e#38#79#0#PHP" expanded="true" />
             <element signature="e#278#362#0#PHP" />
