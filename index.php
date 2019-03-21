@@ -14,12 +14,12 @@ $username = "matteofita";
 $password = "";
 $dbname="fita";
 
-$conn = new mysqli($servername, $username, $password, $dbname);
+//$conn = new mysqli($servername, $username, $password, $dbname);
 
-if ($conn->connect_error)
-{
-    die("Connection failed: " . $conn->connect_error);
-}
+//if ($conn->connect_error)
+//{
+//    die("Connection failed: " . $conn->connect_error);
+//}
 
 //Da qui faccio l'upload del file nella cartella "upload"
 $target_dir = "upload/";
@@ -66,19 +66,19 @@ for ($row = 0; $row <= $highestRow; ++$row)
 
 //qui dal db mi scarico tutti i siti esistenti e mi salvo tutti i nomi in un array
 //Per farmi una differenza con quelli presi dal msrbs appena caricato
-$query="select Site_Name from ms_rbs";
-$result = $conn->query($query);
-
-if ($result->num_rows>0)
-{
-    while ($row= $result->fetch_assoc())
-    {
-        array_push($existSite, $row["Site_Name"]);
-    }
-}
-
-var_dump($existSite);
-var_dump($newSite);
+//$query="select Site_Name from ms_rbs";
+//$result = $conn->query($query);
+//
+//if ($result->num_rows>0)
+//{
+//    while ($row= $result->fetch_assoc())
+//    {
+//        array_push($existSite, $row["Site_Name"]);
+//    }
+//}
+//
+//var_dump($existSite);
+//var_dump($newSite);
 
 
 ?>
